@@ -1,0 +1,72 @@
+[
+  {
+    "pid": 1,
+    "name": "AeroRun Shoes",
+    "price": 79.99,
+    "hasStock": true,
+    "image_url": "https://images.pexels.com/photos/19090/pexels-photo.jpg"
+  },
+  {
+    "pid": 2,
+    "name": "QuietBeat Pro",
+    "price": 199.99,
+    "hasStock": false,
+    "image_url": "https://www.yohohongkong.com/_next/image?url=https%3A%2F%2Fwww1.yohohongkong.com%2Fimages%2F202409%2Fgoods_img%2F162846_P_1726694113418.png&w=960&q=100"
+  },
+  {
+    "pid": 3,
+    "name": "Ocean Bottle 1L",
+    "price": 24.99,
+    "hasStock": true,
+    "image_url": "https://oceanbottle.co/cdn/shop/products/OceanBottle_OG_Front_Ocean-Blue_2048px.jpg?v=1653562177"
+  },
+  {
+    "pid": 4,
+    "name": "FitTrack Ultra",
+    "price": 149.99,
+    "hasStock": false,
+    "image_url": "https://hk.momax.net/cdn/shop/files/SW1S_D_01_1500.jpg?v=1736154439&width=700"
+  },
+  {
+    "pid": 5,
+    "name": "ErgoComfort Seat",
+    "price": 249.99,
+    "hasStock": true,
+    "image_url": "https://m.media-amazon.com/images/I/71qKme+X1tL._AC_SL1500_.jpg"
+  },
+  {
+    "pid": 6,
+    "name": "KeyStorm RGB",
+    "price": 129.99,
+    "hasStock": true,
+    "image_url": "https://cdn11.bigcommerce.com/s-g9br3/images/stencil/2048x2048/products/845/4573/Mech-kb_Front_noWP__55162.1659653757.jpg?c=2"
+  },
+  {
+    "pid": 7,
+    "name": "BrewMaster 500g",
+    "price": 15.99,
+    "hasStock": true,
+    "image_url": "https://joanandjoecoffee.com/cdn/shop/products/MountainBlend5lb.jpg?v=1601660300&width=1080"
+  },
+  {
+    "pid": 8,
+    "name": "PowerDock Slim",
+    "price": 39.99,
+    "hasStock": false,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdL2snTTiO8sn_PcyLCSBiaiIH_jAh9ciMg&s"
+  },
+  {
+    "pid": 9,
+    "name": "VisionPro 27",
+    "price": 399.99,
+    "hasStock": true,
+    "image_url": "https://www.lg.com/content/dam/channel/wcms/hk_en/images/monitors/uhd-4k-5k/27us500-w/feature/ultrafine-27us500-01-2-lg-ultrafine-display-m.jpg"
+  },
+  {
+    "pid": 10,
+    "name": "SoundWave Go",
+    "price": 89.99,
+    "hasStock": true,
+    "image_url": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/speakers/SLMAX-SPEAKERWIRELESS/product_silo_images/aem_pdp_SLMPS_gallery_black_600x511_x2_5.jpg/jcr:content/renditions/cq5dam.web.1920.1920.jpeg"
+  }
+]
