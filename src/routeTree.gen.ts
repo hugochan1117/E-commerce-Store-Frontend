@@ -214,106 +214,106 @@ export interface RootRouteChildren {
 }
 
 declare module '@tanstack/react-router' {
-//   interface FileRoutesByPath {
-//     '/$': {
-//       id: '/$'
-//       path: '/$'
-//       fullPath: '/$'
-//       preLoaderRoute: typeof SplatRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/': {
-//       id: '/'
-//       path: '/'
-//       fullPath: '/'
-//       preLoaderRoute: typeof IndexRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/orderDetails/': {
-//       id: '/orderDetails/'
-//       path: '/orderDetails'
-//       fullPath: '/orderDetails'
-//       preLoaderRoute: typeof OrderDetailsIndexRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/login/': {
-//       id: '/login/'
-//       path: '/login'
-//       fullPath: '/login'
-//       preLoaderRoute: typeof LoginIndexRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/error/': {
-//       id: '/error/'
-//       path: '/error'
-//       fullPath: '/error'
-//       preLoaderRoute: typeof ErrorIndexRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/ShoppingCart/': {
-//       id: '/ShoppingCart/'
-//       path: '/ShoppingCart'
-//       fullPath: '/ShoppingCart'
-//       preLoaderRoute: typeof ShoppingCartIndexRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/OrderHistory/': {
-//       id: '/OrderHistory/'
-//       path: '/OrderHistory'
-//       fullPath: '/OrderHistory'
-//       preLoaderRoute: typeof OrderHistoryIndexRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/OrderConfirmationPage/': {
-//       id: '/OrderConfirmationPage/'
-//       path: '/OrderConfirmationPage'
-//       fullPath: '/OrderConfirmationPage'
-//       preLoaderRoute: typeof OrderConfirmationPageIndexRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/product/search': {
-//       id: '/product/search'
-//       path: '/product/search'
-//       fullPath: '/product/search'
-//       preLoaderRoute: typeof ProductSearchRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/product/productNotFound': {
-//       id: '/product/productNotFound'
-//       path: '/product/productNotFound'
-//       fullPath: '/product/productNotFound'
-//       preLoaderRoute: typeof ProductProductNotFoundRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/product/listingPage': {
-//       id: '/product/listingPage'
-//       path: '/product/listingPage'
-//       fullPath: '/product/listingPage'
-//       preLoaderRoute: typeof ProductListingPageRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/product/$productId': {
-//       id: '/product/$productId'
-//       path: '/product/$productId'
-//       fullPath: '/product/$productId'
-//       preLoaderRoute: typeof ProductProductIdRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/CheckOutPage/$tid': {
-//       id: '/CheckOutPage/$tid'
-//       path: '/CheckOutPage/$tid'
-//       fullPath: '/CheckOutPage/$tid'
-//       preLoaderRoute: typeof CheckOutPageTidRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//     '/product/category/$category': {
-//       id: '/product/category/$category'
-//       path: '/product/category/$category'
-//       fullPath: '/product/category/$category'
-//       preLoaderRoute: typeof ProductCategoryCategoryRouteImport
-//       parentRoute: typeof rootRouteImport
-//     }
-//   }
+  interface FileRoutesByPath {
+    '/$': {
+      id: '/$'
+      path: '/$'
+      fullPath: '/$'
+      preLoaderRoute: typeof SplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/orderDetails/': {
+      id: '/orderDetails/'
+      path: '/orderDetails'
+      fullPath: '/orderDetails'
+      preLoaderRoute: typeof OrderDetailsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/login/': {
+      id: '/login/'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/error/': {
+      id: '/error/'
+      path: '/error'
+      fullPath: '/error'
+      preLoaderRoute: typeof ErrorIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ShoppingCart/': {
+      id: '/ShoppingCart/'
+      path: '/ShoppingCart'
+      fullPath: '/ShoppingCart'
+      preLoaderRoute: typeof ShoppingCartIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/OrderHistory/': {
+      id: '/OrderHistory/'
+      path: '/OrderHistory'
+      fullPath: '/OrderHistory'
+      preLoaderRoute: typeof OrderHistoryIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/OrderConfirmationPage/': {
+      id: '/OrderConfirmationPage/'
+      path: '/OrderConfirmationPage'
+      fullPath: '/OrderConfirmationPage'
+      preLoaderRoute: typeof OrderConfirmationPageIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/product/search': {
+      id: '/product/search'
+      path: '/product/search'
+      fullPath: '/product/search'
+      preLoaderRoute: typeof ProductSearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/product/productNotFound': {
+      id: '/product/productNotFound'
+      path: '/product/productNotFound'
+      fullPath: '/product/productNotFound'
+      preLoaderRoute: typeof ProductProductNotFoundRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/product/listingPage': {
+      id: '/product/listingPage'
+      path: '/product/listingPage'
+      fullPath: '/product/listingPage'
+      preLoaderRoute: typeof ProductListingPageRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/product/$productId': {
+      id: '/product/$productId'
+      path: '/product/$productId'
+      fullPath: '/product/$productId'
+      preLoaderRoute: typeof ProductProductIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/CheckOutPage/$tid': {
+      id: '/CheckOutPage/$tid'
+      path: '/CheckOutPage/$tid'
+      fullPath: '/CheckOutPage/$tid'
+      preLoaderRoute: typeof CheckOutPageTidRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/product/category/$category': {
+      id: '/product/category/$category'
+      path: '/product/category/$category'
+      fullPath: '/product/category/$category'
+      preLoaderRoute: typeof ProductCategoryCategoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+  }
   }
 
 const rootRouteChildren: RootRouteChildren = {
